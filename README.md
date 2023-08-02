@@ -6,3 +6,6 @@ Esse desafio consiste em pegarmos uma frase aleatória de um array de frases e a
 
 - Arrays
 - Modificar HTML com js
+
+1-Quando clicar o botão deve mudar de frase
+2-Quando clicar no botão novamente deve mudar de frase

@@ -10,3 +10,9 @@ const frases = [
 function gerarFreaseDoDia() {
   // return sua frase do dia
 }
+
+const botao = document.getElementById('button-gerar-frase')
+  console.log("esse é meu botão" , botao)
+botao.addEventListener('click', function(){
+  console.log('teste')
+})
