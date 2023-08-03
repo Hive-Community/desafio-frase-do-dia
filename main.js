@@ -7,12 +7,12 @@ const frases = [
   "Só existe um êxito: a capacidade de levar a vida que se quer.",
 ];
 
-function gerarFreaseDoDia() {
-  // return sua frase do dia
-}
-
 const botao = document.getElementById('button-gerar-frase')
-  console.log("esse é meu botão" , botao)
 botao.addEventListener('click', function(){
-  console.log('teste')
+  const frase = document.getElementById('frase-do-dia')
+
+  const numero = Math.floor(Math.random() * frases.length);
+
+  const fraseAleatoria = frases[numero]
+  frase.textContent = fraseAleatoria
 })
